@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Coding Club Logo</title>
+</head>
+
+<body style="margin:0; background:#1f334a; display:flex; justify-content:center; align-items:center; height:100vh;">
+
+<svg width="500" height="450" viewBox="0 0 500 450">
+
+    <defs>
+        <!-- Left Bracket Gradient (Green/Lime) -->
+        <linearGradient id="leftGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0%" stop-color="#d4ff00"/>
+            <stop offset="100%" stop-color="#00c853"/>
+        </linearGradient>
+
+        <!-- Slash Gradient (Yellow to Blue) -->
+        <linearGradient id="slashGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+            <stop offset="0%" stop-color="#ffe600"/>
+            <stop offset="100%" stop-color="#00b0ff"/>
+        </linearGradient>
+
+        <!-- Right Bracket Gradient (Cyan/Blue) -->
+        <linearGradient id="rightGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0%" stop-color="#00e5ff"/>
+            <stop offset="100%" stop-color="#1565c0"/>
+        </linearGradient>
+    </defs>
+
+    <!-- LEFT < -->
+    <polygon points="150,120 90,180 150,240 170,220 120,180 170,140"
+             fill="url(#leftGrad)" />
+
+    <!-- SLASH / -->
+    <rect x="235" y="110" width="16" height="150"
+          transform="rotate(20 240 180)"
+          fill="url(#slashGrad)"
+          rx="8"/>
+
+    <!-- RIGHT > -->
+    <polygon points="350,120 410,180 350,240 330,220 380,180 330,140"
+             fill="url(#rightGrad)" />
+
+    <!-- MAIN TITLE -->
+    <text x="250" y="310"
+          text-anchor="middle"
+          font-size="36"
+          font-family="Arial"
+          fill="#e0e0e0"
+          letter-spacing="3">
+        CODING CLUB
+    </text>
+
+    <!-- TAGLINE -->
+    <text x="250" y="345"
+          text-anchor="middle"
+          font-size="14"
+          font-family="Arial"
+          fill="#b0bec5"
+          letter-spacing="4">
+        INNOVATE. CODE. CREATE.
+    </text>
+
+</svg>
+
+</body>
+</html>
